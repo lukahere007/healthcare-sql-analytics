@@ -1,0 +1,41 @@
+{
+  "source": "Synthea synthetic patient generator (https://github.com/synthetichealth/synthea)",
+  "synthea_version": "v3.3.0",
+  "command": "java -jar synthea-v3.3.0.jar -s 42 -cs 42 -p 2000 -r 20250630 -e 20250630 --exporter.baseDirectory ./output --exporter.csv.export true --exporter.csv.included_files patients.csv,encounters.csv,conditions.csv,medications.csv,observations.csv,organizations.csv,payers.csv --exporter.fhir.export false --exporter.hospital.fhir.export false --exporter.practitioner.fhir.export false Massachusetts",
+  "tables": {
+    "patients": 2337,
+    "encounters": 164628,
+    "conditions": 89623,
+    "medications": 142025,
+    "observations": 216127,
+    "organizations": 943,
+    "payers": 10
+  },
+  "observation_codes_kept": {
+    "4548-4": "Hemoglobin A1c/Hemoglobin.total in Blood",
+    "8480-6": "Systolic Blood Pressure",
+    "8462-4": "Diastolic Blood Pressure",
+    "39156-5": "Body mass index (BMI)",
+    "2093-3": "Cholesterol [Mass/volume] in Serum or Plasma",
+    "18262-6": "Cholesterol in LDL [Mass/volume] in Serum or Plasma (direct)",
+    "33914-3": "eGFR (MDRD)",
+    "72166-2": "Tobacco smoking status"
+  },
+  "dropped_columns": {
+    "patients": [
+      "SSN",
+      "DRIVERS",
+      "PASSPORT",
+      "PREFIX",
+      "FIRST",
+      "MIDDLE",
+      "LAST",
+      "SUFFIX",
+      "MAIDEN",
+      "ADDRESS",
+      "LAT",
+      "LON"
+    ]
+  },
+  "notes": "All columns stored as text; typed in sql/01_staging.sql."
+}
