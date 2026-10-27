@@ -1,0 +1,5 @@
+rxnorm_code,description,drug_class,notes
+314076,lisinopril 10 MG Oral Tablet,ACE inhibitor,Hand-curated; the four antihypertensives Synthea prescribes for essential hypertension in this export
+310798,Hydrochlorothiazide 25 MG Oral Tablet,Thiazide diuretic,
+308136,amLODIPine 2.5 MG Oral Tablet,Calcium channel blocker,
+979485,losartan potassium 25 MG Oral Tablet,ARB,

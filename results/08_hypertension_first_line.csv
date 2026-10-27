@@ -1,0 +1,9 @@
+first_line_regimen,patients,share_of_cohort,median_days_to_first_rx,escalated_patients,escalation_rate
+Calcium channel blocker,52,0.321,0.0,19,0.3654
+ACE inhibitor,51,0.3148,0.0,27,0.5294
+Thiazide diuretic,29,0.179,0.0,15,0.5172
+ACE inhibitor + Thiazide diuretic,18,0.1111,0.0,9,0.5
+ACE inhibitor + Calcium channel blocker,6,0.037,0.0,2,0.3333
+Calcium channel blocker + Thiazide diuretic,3,0.0185,0.0,1,0.3333
+ARB,2,0.0123,0.0,0,0.0
+ARB + Thiazide diuretic,1,0.0062,0.0,0,0.0

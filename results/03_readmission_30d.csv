@@ -1,0 +1,14 @@
+principal_reason,index_stays,patients,readmissions_all_cause,readmissions_unplanned,all_cause_readmission_rate,unplanned_readmission_rate
+ALL INDEX STAYS,933,524,54,6,0.0579,0.0064
+Dependent drug abuse (disorder),224,80,3,2,0.0134,0.0089
+Other reasons (< 20 index stays each),172,150,3,2,0.0174,0.0116
+(no reason recorded),159,144,0,0,0.0,0.0
+Non-small cell carcinoma of lung  TNM stage 1 (disorder),114,5,38,0,0.3333,0.0
+Sterilization requested (situation),50,50,1,1,0.02,0.02
+History of coronary artery bypass grafting (situation),45,40,5,0,0.1111,0.0
+Awaiting transplantation of kidney (situation),42,42,0,0,0.0,0.0
+Sleep disorder (disorder),32,32,0,0,0.0,0.0
+Abnormal findings diagnostic imaging heart+coronary circulat (finding),25,25,2,0,0.08,0.0
+COVID-19,25,25,0,0,0.0,0.0
+Chronic congestive heart failure (disorder),24,17,1,1,0.0417,0.0417
+Acute non-ST segment elevation myocardial infarction (disorder),21,21,1,0,0.0476,0.0

@@ -1,0 +1,52 @@
+name: Generate Synthea data
+
+# Regenerates data/raw/ from scratch. Runs when the generation scripts change
+# (or by hand). The data commit only touches data/, so it cannot re-trigger itself.
+on:
+  push:
+    branches: [claude/github-projects-improve-nh2reo]
+    paths:
+      - scripts/generate_synthea.sh
+      - scripts/convert_to_parquet.py
+      - .github/workflows/fetch-data.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install "duckdb>=1.1,<2"
+      - name: Run Synthea and convert to Parquet
+        run: bash scripts/generate_synthea.sh
+        env:
+          WORK_DIR: ${{ runner.temp }}/synthea
+      - name: Show output
+        run: |
+          ls -la data/raw
+          du -sh data/raw
+          cat data/raw/MANIFEST.json
+      - name: Commit data snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Data unchanged"
+          else
+            git commit -m "Update data snapshot"
+            git push
+          fi

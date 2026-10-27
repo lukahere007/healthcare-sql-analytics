@@ -1,0 +1,32 @@
+snomed_code,description,condition_group,notes
+59621000,Essential hypertension (disorder),Hypertension,Hand-curated from SNOMED CT descriptions present in this Synthea export
+44054006,Diabetes mellitus type 2 (disorder),Type 2 diabetes,Core diagnosis code
+127013003,Disorder of kidney due to diabetes mellitus (disorder),Type 2 diabetes,Diabetic complication; implies diabetes
+90781000119102,Microalbuminuria due to type 2 diabetes mellitus (disorder),Type 2 diabetes,Diabetic complication; implies diabetes
+157141000119108,Proteinuria due to type 2 diabetes mellitus (disorder),Type 2 diabetes,Diabetic complication; implies diabetes
+368581000119106,Neuropathy due to type 2 diabetes mellitus (disorder),Type 2 diabetes,Diabetic complication; implies diabetes
+422034002,Retinopathy due to type 2 diabetes mellitus (disorder),Type 2 diabetes,Diabetic complication; implies diabetes
+1551000119108,Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder),Type 2 diabetes,Diabetic complication; implies diabetes
+1501000119109,Proliferative diabetic retinopathy due to type II diabetes mellitus (disorder),Type 2 diabetes,Diabetic complication; implies diabetes
+97331000119101,Macular edema and retinopathy due to type 2 diabetes mellitus (disorder),Type 2 diabetes,Diabetic complication; implies diabetes
+15777000,Prediabetes,Prediabetes,
+162864005,Body mass index 30+ - obesity (finding),Obesity,SNOMED finding rather than disorder; used as the obesity flag
+408512008,Body mass index 40+ - severely obese (finding),Obesity,
+55822004,Hyperlipidemia,Hyperlipidemia,
+302870006,Hypertriglyceridemia (disorder),Hyperlipidemia,Grouped with hyperlipidemia
+431855005,Chronic kidney disease stage 1 (disorder),Chronic kidney disease,
+431856006,Chronic kidney disease stage 2 (disorder),Chronic kidney disease,
+433144002,Chronic kidney disease stage 3 (disorder),Chronic kidney disease,
+431857002,Chronic kidney disease stage 4 (disorder),Chronic kidney disease,
+46177005,End-stage renal disease (disorder),Chronic kidney disease,
+414545008,Ischemic heart disease (disorder),Ischemic heart disease,
+88805009,Chronic congestive heart failure (disorder),Heart failure,
+84114007,Heart failure (disorder),Heart failure,
+49436004,Atrial fibrillation (disorder),Atrial fibrillation,
+87433001,Pulmonary emphysema (disorder),COPD,
+185086009,Chronic obstructive bronchitis (disorder),COPD,
+233678006,Childhood asthma,Asthma,
+195967001,Asthma,Asthma,
+26929004,Alzheimer's disease (disorder),Alzheimer's disease,
+230265002,Familial Alzheimer's disease of early onset (disorder),Alzheimer's disease,
+64859006,Osteoporosis (disorder),Osteoporosis,

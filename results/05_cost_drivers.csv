@@ -1,0 +1,16 @@
+cost_rank,cost_category,driver,n_records,total_cost,cost_per_patient_year,share_of_total_cost,cumulative_share,all_cost_per_patient_year
+1,Encounter: ambulatory,Normal pregnancy,5315,72906254.0,3717.15,0.2306,0.2306,16122.36
+2,Medication,Alteplase 100 MG Injection,11,44265781.0,2256.9,0.14,0.3705,16122.36
+3,Encounter: ambulatory,Allergy to substance (finding),3034,28649055.0,1460.68,0.0906,0.4611,16122.36
+4,Encounter: wellness,General examination of patient (procedure),11741,15566454.0,793.66,0.0492,0.5104,16122.36
+5,Encounter: ambulatory,Chronic kidney disease stage 4 (disorder),16900,14322697.0,730.25,0.0453,0.5557,16122.36
+6,Encounter: outpatient,Contraception care (regime/therapy),5068,13452544.0,685.88,0.0425,0.5982,16122.36
+7,Encounter: ambulatory,Malignant neoplasm of breast (disorder),747,10162549.0,518.14,0.0321,0.6303,16122.36
+8,Encounter: ambulatory,Screening for malignant neoplasm of colon (procedure),787,9363365.0,477.39,0.0296,0.66,16122.36
+9,Encounter: outpatient,Encounter for check up (procedure),6686,7083820.0,361.17,0.0224,0.6824,16122.36
+10,Encounter: inpatient,Non-small cell carcinoma of lung  TNM stage 1 (disorder),117,6524335.0,332.65,0.0206,0.703,16122.36
+11,Encounter: urgentcare,Urgent care clinic (environment),5189,5478864.0,279.34,0.0173,0.7203,16122.36
+12,Encounter: wellness,Well child visit (procedure),6822,5227923.0,266.55,0.0165,0.7369,16122.36
+13,Medication,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable Suspension [Humulin],7872,3927188.0,200.23,0.0124,0.7493,16122.36
+14,Encounter: snf,Patient transfer to skilled nursing facility (procedure),267,3684316.0,187.85,0.0117,0.7609,16122.36
+15,Medication,aspirin 81 MG Oral Capsule,385,3165338.0,161.39,0.01,0.7709,16122.36

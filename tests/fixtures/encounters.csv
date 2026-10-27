@@ -1,0 +1,13 @@
+Id,START,STOP,PATIENT,ORGANIZATION,PAYER,ENCOUNTERCLASS,CODE,DESCRIPTION,BASE_ENCOUNTER_COST,TOTAL_CLAIM_COST,PAYER_COVERAGE,REASONCODE,REASONDESCRIPTION
+A1,2020-01-01T08:00:00Z,2020-01-05T10:00:00Z,A,O1,P1,inpatient,1,Hospital admission,100.00,1000.00,0.00,233604007,Pneumonia (disorder)
+A2,2020-01-05T09:00:00Z,2020-01-08T12:00:00Z,A,O1,P1,inpatient,2,Patient transfer to intensive care unit,100.00,2000.00,0.00,233604007,Pneumonia (disorder)
+A_amb,2020-01-10T09:00:00Z,2020-01-10T09:30:00Z,A,O1,P1,ambulatory,3,Follow-up,50.00,50.00,0.00,,
+A3,2020-01-20T08:00:00Z,2020-01-23T08:00:00Z,A,O1,P1,inpatient,1,Hospital admission,100.00,1500.00,0.00,233604007,Pneumonia (disorder)
+A4,2020-02-23T08:00:00Z,2020-02-25T08:00:00Z,A,O1,P1,inpatient,1,Hospital admission,100.00,1500.00,0.00,91302008,Sepsis (disorder)
+A5,2020-03-10T08:00:00Z,2020-03-12T08:00:00Z,A,O1,P1,inpatient,1,Hospital admission,100.00,9000.00,0.00,1,Awaiting transplantation of kidney (situation)
+B1,2020-02-01T08:00:00Z,2020-02-10T08:00:00Z,B,O1,P1,inpatient,1,Hospital admission,100.00,1000.00,0.00,88805009,Chronic congestive heart failure (disorder)
+B2,2020-03-11T08:00:00Z,2020-03-15T08:00:00Z,B,O1,P1,inpatient,1,Hospital admission,100.00,1000.00,0.00,91302008,Sepsis (disorder)
+C1,2024-01-01T08:00:00Z,2024-01-03T08:00:00Z,C,O1,P1,inpatient,1,Hospital admission,100.00,1000.00,0.00,195967001,Asthma
+C2,2024-01-10T08:00:00Z,2024-01-12T08:00:00Z,C,O1,P1,inpatient,1,Hospital admission,100.00,1000.00,0.00,195967001,Asthma
+D0,2015-06-20T08:00:00Z,2015-06-25T08:00:00Z,D,O1,P1,inpatient,1,Hospital admission,100.00,1000.00,0.00,233604007,Pneumonia (disorder)
+D1,2025-06-10T08:00:00Z,2025-06-12T08:00:00Z,D,O1,P1,inpatient,1,Hospital admission,100.00,1000.00,0.00,233604007,Pneumonia (disorder)
