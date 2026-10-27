@@ -1,6 +1,6 @@
 -- title: Length-of-stay distribution, overall and by principal reason
 -- grain: principal_reason
--- rate_columns: pct_same_day, pct_long_stay_7plus
+-- rate_columns: pct_los_0_or_1, pct_long_stay_7plus
 --
 -- Question
 --   How long do hospital stays last, and which admission reasons have the
@@ -13,7 +13,7 @@
 --
 -- Technique
 --   Ordered-set aggregates (QUANTILE_CONT) for the percentiles, FILTER for the
---   share of same-day and 7+ day stays, GROUPING SETS for the overall row.
+--   share of short (0-1 day) and long (7+ day) stays, GROUPING SETS for the overall row.
 
 WITH stays AS (
     SELECT
@@ -35,7 +35,7 @@ SELECT
     QUANTILE_CONT(los_days, 0.75)                               AS p75_los,
     QUANTILE_CONT(los_days, 0.90)                               AS p90_los,
     MAX(los_days)                                               AS max_los,
-    ROUND(COUNT(*) FILTER (WHERE los_days = 0) / COUNT(*), 4)   AS pct_same_day,
+    ROUND(COUNT(*) FILTER (WHERE los_days <= 1) / COUNT(*), 4)  AS pct_los_0_or_1,
     ROUND(COUNT(*) FILTER (WHERE los_days >= 7) / COUNT(*), 4)  AS pct_long_stay_7plus,
     SUM(los_days)                                               AS total_bed_days
 FROM stays

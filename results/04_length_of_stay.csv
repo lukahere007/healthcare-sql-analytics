@@ -1,26 +1,26 @@
-principal_reason,stays,mean_los,p25_los,median_los,p75_los,p90_los,max_los,pct_same_day,pct_long_stay_7plus,total_bed_days
-ALL STAYS,1068,4.12,1.0,2.0,5.0,10.0,32,0.0,0.2041,4401.0
+principal_reason,stays,mean_los,p25_los,median_los,p75_los,p90_los,max_los,pct_los_0_or_1,pct_long_stay_7plus,total_bed_days
+ALL STAYS,1068,4.12,1.0,2.0,5.0,10.0,32,0.4457,0.2041,4401.0
 COVID-19,41,12.41,10.0,12.0,14.0,18.0,20,0.0,1.0,509.0
-Other reasons (< 10 stays each),28,6.96,2.0,3.0,8.5,19.100000000000005,32,0.0,0.3214,195.0
-Dependent drug abuse (disorder),225,6.92,2.0,5.0,9.0,16.0,28,0.0,0.3822,1556.0
-Non-small cell carcinoma of lung  TNM stage 1 (disorder),117,5.81,4.0,5.0,7.0,9.0,31,0.0,0.3162,680.0
-Malignant tumor of colon,10,5.7,2.25,3.5,6.0,10.999999999999996,20,0.0,0.2,57.0
-Chronic congestive heart failure (disorder),29,5.59,2.0,4.0,7.0,10.399999999999999,24,0.0,0.2759,162.0
+Other reasons (< 10 stays each),28,6.96,2.0,3.0,8.5,19.100000000000005,32,0.2143,0.3214,195.0
+Dependent drug abuse (disorder),225,6.92,2.0,5.0,9.0,16.0,28,0.1422,0.3822,1556.0
+Non-small cell carcinoma of lung  TNM stage 1 (disorder),117,5.81,4.0,5.0,7.0,9.0,31,0.0085,0.3162,680.0
+Malignant tumor of colon,10,5.7,2.25,3.5,6.0,10.999999999999996,20,0.1,0.2,57.0
+Chronic congestive heart failure (disorder),29,5.59,2.0,4.0,7.0,10.399999999999999,24,0.069,0.2759,162.0
 Overlapping malignant neoplasm of colon,12,5.42,2.0,3.0,4.0,13.000000000000004,24,0.0,0.1667,65.0
-Awaiting transplantation of kidney (situation),42,4.6,2.0,3.0,7.0,8.0,15,0.0,0.2857,193.0
-Abnormal findings diagnostic imaging heart+coronary circulat (finding),26,4.35,2.25,3.0,4.0,10.0,12,0.0,0.1923,113.0
-Injury of medial collateral ligament of knee,10,4.3,2.0,2.0,5.5,11.1,12,0.0,0.2,43.0
-History of coronary artery bypass grafting (situation),47,4.0,2.0,3.0,6.0,9.0,12,0.0,0.1915,188.0
-Injury of anterior cruciate ligament,10,3.5,2.0,3.5,4.75,5.299999999999999,8,0.0,0.1,35.0
-Tubal pregnancy,15,3.33,1.0,2.0,3.5,6.799999999999999,14,0.0,0.1333,50.0
-Appendicitis,20,2.95,2.0,3.0,4.0,4.100000000000001,5,0.0,0.0,59.0
-Rupture of patellar tendon,11,2.64,2.0,2.0,3.0,4.0,6,0.0,0.0,29.0
-Malignant neoplasm of breast (disorder),13,2.54,1.0,2.0,4.0,4.800000000000001,8,0.0,0.0769,33.0
-Aortic valve stenosis (disorder),14,2.0,1.0,1.0,2.0,3.0,8,0.0,0.0714,28.0
-Acute non-ST segment elevation myocardial infarction (disorder),22,1.36,1.0,1.0,1.75,2.0,3,0.0,0.0,30.0
-(no reason recorded),241,1.0,1.0,1.0,1.0,1.0,1,0.0,0.0,241.0
-Acute ST segment elevation myocardial infarction (disorder),18,1.0,1.0,1.0,1.0,1.0,1,0.0,0.0,18.0
-Gingivitis (disorder),18,1.0,1.0,1.0,1.0,1.0,1,0.0,0.0,18.0
-Patient referral for dental care (procedure),17,1.0,1.0,1.0,1.0,1.0,1,0.0,0.0,17.0
-Sleep disorder (disorder),32,1.0,1.0,1.0,1.0,1.0,1,0.0,0.0,32.0
-Sterilization requested (situation),50,1.0,1.0,1.0,1.0,1.0,1,0.0,0.0,50.0
+Awaiting transplantation of kidney (situation),42,4.6,2.0,3.0,7.0,8.0,15,0.1429,0.2857,193.0
+Abnormal findings diagnostic imaging heart+coronary circulat (finding),26,4.35,2.25,3.0,4.0,10.0,12,0.1154,0.1923,113.0
+Injury of medial collateral ligament of knee,10,4.3,2.0,2.0,5.5,11.1,12,0.2,0.2,43.0
+History of coronary artery bypass grafting (situation),47,4.0,2.0,3.0,6.0,9.0,12,0.1702,0.1915,188.0
+Injury of anterior cruciate ligament,10,3.5,2.0,3.5,4.75,5.299999999999999,8,0.2,0.1,35.0
+Tubal pregnancy,15,3.33,1.0,2.0,3.5,6.799999999999999,14,0.3333,0.1333,50.0
+Appendicitis,20,2.95,2.0,3.0,4.0,4.100000000000001,5,0.05,0.0,59.0
+Rupture of patellar tendon,11,2.64,2.0,2.0,3.0,4.0,6,0.0909,0.0,29.0
+Malignant neoplasm of breast (disorder),13,2.54,1.0,2.0,4.0,4.800000000000001,8,0.4615,0.0769,33.0
+Aortic valve stenosis (disorder),14,2.0,1.0,1.0,2.0,3.0,8,0.5714,0.0714,28.0
+Acute non-ST segment elevation myocardial infarction (disorder),22,1.36,1.0,1.0,1.75,2.0,3,0.7273,0.0,30.0
+(no reason recorded),241,1.0,1.0,1.0,1.0,1.0,1,1.0,0.0,241.0
+Acute ST segment elevation myocardial infarction (disorder),18,1.0,1.0,1.0,1.0,1.0,1,1.0,0.0,18.0
+Gingivitis (disorder),18,1.0,1.0,1.0,1.0,1.0,1,1.0,0.0,18.0
+Patient referral for dental care (procedure),17,1.0,1.0,1.0,1.0,1.0,1,1.0,0.0,17.0
+Sleep disorder (disorder),32,1.0,1.0,1.0,1.0,1.0,1,1.0,0.0,32.0
+Sterilization requested (situation),50,1.0,1.0,1.0,1.0,1.0,1,1.0,0.0,50.0
