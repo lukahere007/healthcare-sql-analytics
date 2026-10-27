@@ -1,0 +1,6 @@
+age_band,diabetics,without_hba1c_12m,care_gap_rate,median_last_hba1c,poor_control_rate_among_tested,implausible_low_rate_among_tested
+18-39,22,13,0.5909,3.4,0.0,0.5556
+40-64,155,36,0.2323,4.1,0.0084,0.4286
+65-74,81,23,0.284,4.0,0.0,0.4483
+75-84,2,1,0.5,8.4,0.0,0.0
+18-75 (all),260,73,0.2808,4.0,0.0053,0.4385

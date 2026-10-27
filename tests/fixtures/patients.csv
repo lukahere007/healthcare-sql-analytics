@@ -1,0 +1,5 @@
+Id,BIRTHDATE,DEATHDATE,GENDER,RACE,ETHNICITY,MARITAL,COUNTY,INCOME
+A,1960-05-01,,F,white,nonhispanic,M,Suffolk County,50000
+B,1950-01-01,2020-03-15,M,white,nonhispanic,M,Suffolk County,40000
+C,2015-01-01,,F,asian,nonhispanic,,Suffolk County,30000
+D,1970-01-01,,M,black,nonhispanic,S,Suffolk County,60000

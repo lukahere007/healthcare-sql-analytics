@@ -1,0 +1,10 @@
+check,severity,rule,failing_rows,status
+dq_01_primary_keys,error,(all rules),0,pass
+dq_02_orphan_keys,error,(all rules),0,pass
+dq_03_required_fields,error,(all rules),0,pass
+dq_04_temporal_logic,error,(all rules),0,pass
+dq_05_source_defects,warn,medications: stop_ts before start_ts (dropped from episodes),97,warn
+dq_05_source_defects,warn,observations: HbA1c < 4% (physiologically implausible),9674,warn
+dq_05_source_defects,warn,observations: BMI outside 10-80,4,warn
+dq_05_source_defects,warn,medications: single record costing > $1M,16,warn
+dq_05_source_defects,warn,encounters: administrative Death Certification after death,312,warn

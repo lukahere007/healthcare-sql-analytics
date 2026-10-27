@@ -1,0 +1,5 @@
+age_band,patients,median_peak_meds,polypharmacy_patients,polypharmacy_rate,hyper_polypharmacy_rate,polypharmacy_on_as_of_rate
+65-74,176,5.0,105,0.5966,0.1648,0.5739
+75-84,93,8.0,80,0.8602,0.3333,0.8387
+85+,36,7.0,32,0.8889,0.3056,0.8611
+65+ (all),305,6.0,217,0.7115,0.2328,0.6885

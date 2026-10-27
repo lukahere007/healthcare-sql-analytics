@@ -1,0 +1,13 @@
+# DuckDB files created with `python -m ehr_sql.run --db ...`
+*.duckdb
+*.duckdb.wal
+
+# Synthea working directory (jar + full CSV export, ~2 GB)
+.synthea_work/
+
+# Python
+__pycache__/
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/

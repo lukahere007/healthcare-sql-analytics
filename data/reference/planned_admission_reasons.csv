@@ -1,0 +1,11 @@
+principal_reason,planned_category,notes
+Non-small cell carcinoma of lung  TNM stage 1 (disorder),Chemotherapy / oncology treatment,Hand-curated. In the spirit of the CMS Planned Readmission Algorithm (chemotherapy admissions are always planned); Synthea's lung cancer module schedules repeat treatment admissions
+Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder),Chemotherapy / oncology treatment,As above
+Non-small cell lung cancer (disorder),Chemotherapy / oncology treatment,As above
+Malignant neoplasm of breast (disorder),Chemotherapy / oncology treatment,As above
+Malignant tumor of colon,Chemotherapy / oncology treatment,As above
+Overlapping malignant neoplasm of colon,Chemotherapy / oncology treatment,As above
+Awaiting transplantation of kidney (situation),Transplant,CMS: transplant admissions are always planned
+Awaiting transplantation of bone marrow (situation),Transplant,CMS: transplant admissions are always planned
+Sterilization requested (situation),Elective procedure,Elective sterilisation
+History of coronary artery bypass grafting (situation),Potentially planned procedure,CMS lists CABG as potentially planned when the principal diagnosis is not acute
